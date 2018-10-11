@@ -35,9 +35,9 @@ document.addEventListener('keydown', function(e) {
   }
 })
 
-/* document.addEventListener('keydown', function(e) {
+ document.addEventListener('keydown', function(e) {
   console.log(e.which)
-}) */
+}) 
 
  function moveDodgerRight() {
   var rightNumbers = dodger.style.right.replace('px', " ")
