@@ -17,7 +17,7 @@ var dodger = document.getElementById('dodger')
       } 
   }) */
   
-//This Works!  
+//This Works  
 var dodger = document.getElementById('dodger')
 
 function moveDodgerLeft() {
@@ -35,6 +35,7 @@ document.addEventListener('keydown', function(e) {
   }
 })
 
+// This doesn't work
  document.addEventListener('keydown', function(e) {
   console.log(e.which)
 }) 
