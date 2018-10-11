@@ -49,7 +49,7 @@ function moveDodgerRight(e) {
 }
 
 function moveRight(e) {
-  if (e === 39) {
+  if (e.which === 39) {
     moveDodgerRight()
   }
 }
