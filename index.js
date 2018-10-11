@@ -48,6 +48,8 @@ document.addEventListener('keydown', function(e) {
   }
 }
 
+// CANNOT USE style.right for some reason!
+
 document.addEventListener('keydown', function(e) {
   if (e.which === 39) {
     moveDodgerRight()
