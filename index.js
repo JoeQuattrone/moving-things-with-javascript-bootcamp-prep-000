@@ -20,7 +20,7 @@ var dodger = document.getElementById('dodger')
   
 var dodger = document.getElementById('dodger')
 
-function moveDoderLeft() {
+function moveDodgerLeft() {
  var leftNumbers = dodger.style.left.replace('px', " ")
  var left = parseInt(leftNumbers, 10)
 
