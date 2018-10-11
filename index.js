@@ -34,3 +34,11 @@ document.addEventListener('keydown', function(e) {
     moveDodgerLeft()
   }
 })
+
+function moveDodgerRight(e) {
+  
+  
+}
+
+
+
