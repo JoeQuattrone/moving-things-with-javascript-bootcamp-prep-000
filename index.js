@@ -48,5 +48,10 @@ function moveDodgerRight(e) {
   }
 }
 
+function moveRight(e) {
+  if (e === 39) {
+    moveDodgerRight()
+  }
+}
 
 
