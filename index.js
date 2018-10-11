@@ -17,7 +17,7 @@ var dodger = document.getElementById('dodger')
       } 
   }) */
   
-  
+//This Works!  
 var dodger = document.getElementById('dodger')
 
 function moveDodgerLeft() {
