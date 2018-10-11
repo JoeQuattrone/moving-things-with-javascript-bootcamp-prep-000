@@ -18,7 +18,7 @@ var dodger = document.getElementById('dodger')
   }) */
   
   
-
+var dodger = document.getElementById('dodger')
 
 function moveDoderLeft() {
  var leftNumbers = dodger.style.left.replace('px', " ")
