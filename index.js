@@ -40,7 +40,7 @@ document.addEventListener('keydown', function(e) {
 })
 
 function moveDodgerRight(e) {
-  
+  var rightNumbers = dodger.style.right.replace('px', ' ')
   
 }
 
