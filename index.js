@@ -28,4 +28,10 @@ function moveDoderLeft() {
 	  dodger.style.left = `${left - 1}px`
 	}   
 }
-undefined  
+
+
+document.addEventListener('keydown', function(e) {
+  if (e.which === 37) {
+    moveDodgerLeft()
+  }
+})
