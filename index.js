@@ -16,3 +16,16 @@ var dodger = document.getElementById('dodger')
         dodger.style.left = `${left - 1}px`
       } 
   }) */
+  
+  
+
+
+function moveDoderLeft() {
+ var leftNumbers = dodger.style.left.replace('px', " ")
+ var left = parseInt(leftNumbers, 10)
+
+	if (left > 0) {
+	  dodger.style.left = `${left - 1}px`
+	}   
+}
+undefined  
